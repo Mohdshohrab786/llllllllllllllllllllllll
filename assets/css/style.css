@@ -1,0 +1,1359 @@
+@font-face {
+    font-family: MontserratBold;
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url("../fonts/Montserrat-Regular_0.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Montserratsemibold;
+    src: url("../fonts/MONTSERRAT-SEMIBOLD.OTF") format("opentype");
+    font-display: swap;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    font-size: 13px !important;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:focus,
+:hover,
+:visited {
+    outline: none;
+}
+
+body {
+    margin: 0 auto;
+    font-family: MontserratRegular !important;
+    color: #000000;
+    font-size: 13px !important;
+    line-height: 150%;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+}
+
+/*Fixing alignment code start here*/
+
+ul li,
+ol li {
+    margin-left: 0em !important;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block !important;
+}
+
+.construction_updates iframe {
+    width: 70%;
+}
+
+/* Custom style */
+
+/* .card-header:after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+  .card-header:not(.collapsed):after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  } */
+
+.aspNewWraper .clearfix {
+    clear: both
+}
+
+/* ::selection {
+    color: #fff;
+    background: #2a2a2a
+} */
+
+.aspNewWraper .whiteBg {
+    background-color: #fff
+}
+
+::-webkit-media-controls {
+    display: none !important;
+}
+
+.aspNewWraper .dHide {
+    display: none !important;
+}
+
+.aspNewWraper .mHide {
+    display: block !important;
+}
+
+.aspNewWraper .mt60 {
+    margin-top: 60px;
+}
+
+.aspNewWraper .mb60 {
+    margin-bottom: 60px;
+}
+
+.aspNewWraper .mt40 {
+    margin-top: 40px;
+}
+
+.aspNewWraper .mb40 {
+    margin-bottom: 40px;
+}
+
+.aspNewWraper .mt20 {
+    margin-top: 20px;
+}
+
+.aspNewWraper .mb20 {
+    margin-bottom: 20px;
+}
+
+.aspNewWraper .pt60 {
+    padding-top: 60px;
+}
+
+.aspNewWraper .pb60 {
+    padding-bottom: 60px;
+}
+
+.aspNewWraper .pt40 {
+    padding-top: 40px;
+}
+
+.aspNewWraper .pb40 {
+    padding-bottom: 40px;
+}
+
+.aspNewWraper .pt20 {
+    padding-top: 20px;
+}
+
+.aspNewWraper .pb20 {
+    padding-bottom: 20px;
+}
+
+.aspNewWraper h1,
+.aspNewWraper h2,
+.aspNewWraper h3,
+.aspNewWraper h4,
+.aspNewWraper h5,
+.aspNewWraper h6 {
+    margin: 0;
+    padding: 1vw 0;
+    line-height: 130%;
+    letter-spacing: 2px;
+    font-family: MontserratBold;
+    color: #cf9f63;
+    text-transform: uppercase;
+}
+
+.lightpink {
+    color: #FDE4D0 !important;
+}
+
+.aspNewWraper h1 {
+    font-size: 3.5rem;
+}
+
+.aspNewWraper h2 {
+    font-size: 2.2rem;
+    ;
+}
+
+.aspNewWraper h3 {
+    font-size: 1.8rem;
+}
+
+.aspNewWraper h4 {
+    font-size: 1.5rem;
+}
+
+.aspNewWraper h5 {
+    font-size: 1.5rem;
+}
+
+.aspNewWraper h6 {
+    font-size: 1.25rem;
+}
+
+.aspNewWraper .w-900 {
+    width: 900px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.aspNewWraper .w-1100 {
+    width: 1100px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.aspNewWraper .txtcaps {
+    text-transform: uppercase;
+}
+
+.aspNewWraper .txtGreen {
+    color: #000;
+}
+
+.aspNewWraper .txtCenter {
+    text-align: center;
+}
+
+.aspNewWraper p {
+    margin: 0;
+    color: #000000;
+    line-height: 160%;
+}
+
+.aspNewWraper p:last-child {
+    margin-bottom: 0
+}
+
+.aspNewWraper small {
+    font-size: 12px
+}
+
+.aspNewWraper a {
+    color: #222;
+    text-decoration: none
+}
+
+.aspNewWraper a:focus,
+.aspNewWraper a:hover {
+    color: #132e4c;
+}
+
+.aspNewWraper a:focus {
+    text-decoration: none
+}
+
+.aspNewWraper a,
+.aspNewWraper a:active,
+.aspNewWraper a:hover,
+.aspNewWraper a:link {
+    outline: 0
+}
+
+.aspNewWraper img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    aspect-ratio: attr(width)/attr(height)
+}
+
+.aspNewWraper .containerAsp {
+    width: 1150px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.fullWidthh {
+    width: 100%;
+}
+
+.mapIframe {
+    width: 100%;
+    height: 450px;
+}
+
+/* Header Start */
+
+.navmenus {
+    margin-right: .5rem !important;
+    color: #fff !important;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #fff
+}
+
+.menus {
+    text-decoration: none;
+    background-color: #171717;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0
+}
+
+/* .navbar-light .navbar-toggler-icon{
+    background-image: url('../img/menu.png');
+    width: 25px;
+    height: 17px;
+    margin-top: 5px;
+    transform: scaleX(-1.4);
+} */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(207,159,99, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-transform-wrapper {
+    background-color: #171717;
+    margin: 0;
+    box-shadow: 2px 1px 5px #212529;
+    color: #fff !important;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar-transform-wrapper a {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Header Ends Here */
+
+/* banner */
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.bannernewform {
+    right: 70px;
+    position: absolute;
+    top: 15%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.bannernewform .form_field {
+    margin-bottom: 10px;
+}
+
+.bannernewform .form_field select,
+.bannernewform .form_field input {
+    margin: 0 auto;
+    font-size: 13px;
+    color: #000;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    background-clip: padding-box;
+    border: 2px solid #e8d6c1;
+    border-radius: 0.25rem;
+}
+
+.bannernewform h2 {
+    padding: 0px 10px 10px 10px;
+    color: #171717;
+}
+
+.bannernewform button {
+    background-image: -webkit-linear-gradient(left, #996b3b, #f4c27e);
+    background-image: -o-linear-gradient(right, #996b3b, #f4c27e);
+    background-image: -moz-linear-gradient(right, #996b3b, #f4c27e);
+    background-image: linear-gradient(to right, #996b3b, #f4c27e);
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px solid #fff;
+    padding: 7px;
+    border-radius: 25px;
+    margin: 20px auto 0px auto;
+    display: block;
+}
+
+/* Overview */
+
+.overview {
+    background-image: url('../images/first-time-ever-bg.jpg');
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overview .containerAsp p {
+    color: #fff;
+}
+
+.overviewOffers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.overview .containerAsp h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overviewofferbox {
+    border: 1px solid #cf9f63;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.overviewofferbox>div:after {
+    content: '|';
+    color: #fff;
+    margin-left: 36px
+}
+
+.overviewofferbox>div:last-of-type {
+    content: '';
+    color: #fff;
+    margin-left: 0px
+}
+
+.overviewofferbox div:last-child::after {
+    content: '';
+    margin-left: 0px
+}
+
+.btncta {
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+
+.btncta button {
+    background-color: #996b3b;
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px solid #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+/* Overview Ends Here */
+
+/* Projects */
+
+.aspNewWraper .imagecontent {
+    position: relative;
+    width: 100%;
+}
+
+.aspNewWraper .imagecontent .overlayContent {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #cb9f68;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+    padding: 30px 30px 10px 30px;
+}
+
+.aspNewWraper .imagecontent:hover .overlayContent {
+    bottom: 0;
+    height: 100%;
+}
+
+.aspNewWraper .imagecontent .overlayContent ul li {
+    padding: 5px 0px;
+    margin-left: 15px !important;
+}
+
+.projectsslider .item .plogo {
+    width: 150px;
+    height: 49px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.projectsslider .item .subtitle {
+    text-transform: uppercase;
+}
+
+.logoclass {
+    display: flex;
+    flex-direction: column;
+}
+
+.logowithbutton {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logowithbutton button {
+    height: 40px;
+    background-color: #996b3b;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px solid #fff;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.privacylink {
+    color: #cf9f63 !important;
+}
+
+.privacylink:hover {
+    color: #cf9f63 !important;
+}
+
+.aspNewWraper .projects .aspSliderFullWidth {
+    position: relative;
+}
+
+.aspNewWraper .projects .aspSliderFullWidth .owl-theme .custom-nav {
+    /*position: absolute;
+    top: 41%;
+    left: 0;
+    right: 0;
+    z-index: 99;*/
+}
+
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-next,
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-prev {
+    color: inherit;
+    background: 0 0;
+    border: none;
+    /*    position: absolute;*/
+    z-index: 99999;
+}
+
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-next:hover,
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-prev:hover {
+    color: inherit;
+    background: 0 0;
+    border: none;
+}
+
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-next i,
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-prev i {
+    font-size: 2.5rem;
+    color: #ead789;
+}
+
+.aspNewWraper .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: 0 0 !important;
+    color: none;
+    text-decoration: none;
+}
+
+.aspNewWraper .owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-prev {
+    /*    left: -100px;*/
+}
+
+.aspNewWraper .aspSliderFullWidth .owl-theme .custom-nav .owl-next {
+    /*    right: -100px;*/
+}
+
+.aspNewWraper .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Projects Ends */
+
+/* Offers Section*/
+
+.Offers {
+    background-image: url('../images/first-time-ever-bg.jpg');
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Offers .containerAsp p {
+    color: #fff;
+}
+
+.Offers .containerAsp h4 {
+    text-align: center;
+}
+
+.offerbox {
+    background-image: url('../images/Gold-Strip.svg');
+    color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.offerbox>div:after {
+    content: '|';
+    color: #000;
+    margin-left: 45px
+}
+
+.offerbox>div:last-of-type {
+    content: '';
+    color: #000;
+    margin-left: 0px
+}
+
+.offerbox div:last-child::after {
+    content: '';
+    margin-left: 0px
+}
+
+.offerimage {
+    border: 1px solid #cf9f63;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    width: 750px;
+    margin: 100px auto 0px auto;
+    min-height: 280px;
+    border-bottom: 0px solid #cf9f63;
+}
+
+.offerimage img {
+    position: absolute;
+    top: -106px;
+    left: 55%;
+    transform: translate(-50%, 10px);
+}
+
+.tandc {
+    text-align: right;
+    margin-top: -35px !important;
+    font-size: 12px;
+    color: #cf9f63 !important;
+}
+
+/* Offers Sections  */
+
+.aspNewWraper .fancybox-infobar {
+    display: none;
+}
+
+/*Unit plan code end here*/
+
+.form_strip {
+    display: none;
+}
+
+/*Mobile Pop Form */
+
+.mobile-form {
+    display: none;
+}
+
+/*Form code start here*/
+
+.mobile-form {
+    position: fixed;
+    font-size: 35px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+    box-shadow: 0 0 9px 0px #00000059;
+}
+
+.form_container {
+    background: #cf9f63;
+    width: 300px;
+}
+
+.form_container h2 {
+    padding: 20px 20px;
+    text-align: center;
+    color: #000;
+    font-family: MontserratRegular;
+    letter-spacing: 1px;
+}
+
+.form_field {
+    width: 87%;
+    margin: 10px 10px 0px 20px;
+}
+
+.form_field select,
+input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px 5px 8px 5px;
+    font-size: 14px;
+    color: #767676;
+    border: 1px solid #3b3b3b;
+    height: 40px;
+}
+
+.submit_btn {
+    width: 87%;
+    margin: 20px 10px 30px 20px;
+    padding: 8px 5px 8px 5px;
+    border: 0px;
+    cursor: pointer !important;
+    background: #000;
+    font-size: 20px;
+    color: #fff;
+}
+
+.close_btn {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 5px;
+}
+
+/*Form code end here*/
+
+/* Mobile Pop Form Ends Here*/
+
+/*enquirenow code start here*/
+
+.enquirenowcontainer {
+    width: 800px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.enqbtnrow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* .enqbtnrow input
+{
+    flex:2;
+} */
+
+.enqbtnrow button {
+    flex: 1;
+}
+
+.enquirenowcontainer input {
+    margin: 0 auto;
+    font-size: 14px;
+    color: #000;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0rem;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-bottom: 2px solid #cacaca;
+    border-radius: 0;
+}
+
+.enquirenowcontainer .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.enqbtnrow .btnenq {
+    background-image: -webkit-linear-gradient(left, #996b3b, #f4c27e);
+    background-image: -o-linear-gradient(right, #996b3b, #f4c27e);
+    background-image: -moz-linear-gradient(right, #996b3b, #f4c27e);
+    background-image: linear-gradient(to right, #996b3b, #f4c27e);
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px solid #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/*enquirenow code end here*/
+
+.footer1 {
+    width: 100%;
+    background-color: #505050;
+    padding: 15px;
+    color: #cf9f63 !important;
+}
+
+.footer1 p {
+    color: #cf9f63 !important;
+}
+
+.footer2 {
+    width: 100%;
+    background-color: #1f1e1d;
+    padding: 15px;
+    color: #fff !important;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer2 .designby span {
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1536px) {}
+
+@media (max-width:1500px) {}
+
+@media only screen and (max-width:1440px) {}
+
+@media only screen and (max-width:1366px) {}
+
+@media (max-width:1300px) {}
+
+@media only screen and (max-width:1280px) {}
+
+@media (max-width:1150px) {}
+
+@media (max-width:980px) {}
+
+@media (max-width:820px) {
+    .aspNewWraper .dHide {
+        display: block !important;
+    }
+    .aspNewWraper .headerMain {
+        width: 100%;
+        background: #2a2a2a;
+    }
+    .aspNewWraper .mHide {
+        display: none !important;
+    }
+}
+
+@media(max-width:580px) {}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2) {}
+
+@media only screen and (max-width:768px) {
+    .overview {
+        background-image: url('../images/first-time-ever-bg-mobile.jpg');
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .aspNewWraper .Offers .containerAsp {
+        width: 1150px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .Offers {
+        padding-bottom: 0px !important;
+    }
+    .offerbox {
+        background-image: url('../images/Rectangle-gold.svg');
+        background-color: #CF9F63;
+        padding: 15px;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        /* background-image: -webkit-linear-gradient(left,#996b3b,#f4c27e,#996b3b);
+        background-image: -o-linear-gradient(right,#996b3b,#f4c27e,#996b3b);
+        background-image: -moz-linear-gradient(right,#996b3b,#f4c27e,#996b3b);
+        background-image: linear-gradient(to right,#996b3b,#f4c27e,#996b3b); */
+        text-align: center;
+    }
+    .offerbox>div {
+        border-bottom: 2px solid #c2a37d;
+        padding: 8px 0px;
+        width: 100%;
+    }
+    .offerbox>div:after {
+        content: '';
+        color: #000;
+        margin-left: unset;
+    }
+    .tandc {
+        text-align: center;
+        margin-top: -25px !important;
+    }
+    .overviewOffers>div {
+        border-bottom: 1px solid #cf9f63;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .overviewOffers {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .overviewofferbox {
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .overviewofferbox ul {
+        margin-bottom: 0px;
+    }
+    .aspNewWraper h2 {
+        font-size: 2.3rem;
+        margin-bottom: 15px;
+    }
+    /* accordian css code */
+    .projects .containerAsp {
+        max-width: 100%;
+    }
+    .accordian {
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+    .accordian .card {
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+        color: #fff;
+    }
+    .accordian .card .card-header h3 {
+        cursor: pointer;
+        position: relative;
+        margin: 0;
+        padding: 0px 5px 0px 5px;
+        font-family: Futura !important;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .accordian .card .card-header {
+        position: relative;
+    }
+    .accordian .card .card-header span {
+        position: absolute;
+        right: 15px;
+        height: 15px;
+        width: 15px;
+        color: #000;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 20px;
+        font-size: 15px;
+        top: 20px;
+    }
+    .accordian .card .card-body {
+        padding: 0px;
+    }
+    .accordian .card .card-body {
+        display: none;
+    }
+    /*open one card by default*/
+    .accordian h3 {
+        font-weight: 600;
+    }
+    .accordian .card-header:first-child {
+        border-radius: 0px;
+    }
+    .card {
+        border-radius: 0rem;
+    }
+    .card-header {
+        /* padding: 0.97rem 0.55rem; */
+        padding: 8px;
+        margin-bottom: 0;
+        background-color: #e3e3e3;
+        color: #000;
+        height: 57.2px;
+    }
+    .card-body img {
+        width: 100%;
+    }
+    .cardcontent {
+        padding: 20px;
+    }
+    .cardcontent .subtitle {
+        text-transform: uppercase;
+    }
+    .cardcontent .address {
+        text-transform: uppercase;
+        padding-bottom: 5px;
+    }
+    .cardcontent hr {
+        border-top: 2px solid rgb(193 161 122);
+    }
+    /* .card-header img
+    {
+        width:100px!important;
+    }
+     */
+    .accordian .card .card-header h3 {
+        color: #000;
+    }
+    .card-header {
+        border-bottom: 0px solid rgba(0, 0, 0, .125);
+    }
+    .card {
+        border: 0px solid #d9d9d9;
+        border-bottom: 0px solid #d9d9d9;
+    }
+    .accordian .card {
+        background-color: transparent;
+    }
+    .accordian .card ul {
+        margin: 6px 5px 0px 15px;
+        font-size: 15px;
+        line-height: 160%;
+        font-weight: 400;
+        color: #000;
+        text-align: justify;
+    }
+    .accordian .card:nth-child(1) .card-body {
+        display: block;
+        /* background-color: #f6f1de; */
+    }
+    .accordian .card .card-body {
+        border: 0px solid #8080802e;
+    }
+    .accordian .card .card-body p {
+        font-size: 15px;
+        color: #000;
+        margin: 0px;
+    }
+    /* accoridan css code ends here */
+    .btn.focus,
+    .btn:focus {
+        outline: none;
+        box-shadow: 0;
+    }
+    .btn-link {
+        color: #136266;
+        text-decoration: none;
+    }
+    .btn-link:hover {
+        color: #136266;
+        text-decoration: none;
+    }
+    .btn-link.focus,
+    .btn-link:focus {
+        text-decoration: none;
+    }
+    .btn-link:hover {
+        color: unset;
+        text-decoration: none;
+    }
+    /* .accordion .card-body
+    {
+        background-color: #136266!important;
+        padding:0px;
+    }
+
+    .accordion .card-body p
+    {
+        padding: 1.25rem;
+        color:#fff;
+    }
+
+    .accordion .card-body ul {
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        color: #fff;
+    }
+    
+    .accordion .card-body ul>li {
+        margin-bottom: 0.5rem;
+        padding-right: 20px;
+    } */
+    /* Mobile Floating Button Strip */
+    .form_strip {
+        position: fixed;
+        bottom: 0px;
+        background: #cf9f63;
+        width: 100%;
+        display: flex;
+        padding: 20px 10px;
+        z-index: 10000;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form_strip button {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        border: 0px;
+        padding: 12px 10px;
+        background-color: #cf9f63;
+        color: #000;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    /* Mobile Floating Button Strip Ends Here*/
+    .offerimage {
+        border: 0px solid #cf9f63;
+        padding: 0px;
+        position: unset;
+        text-align: center;
+        margin: 0px auto 20px auto;
+        min-height: unset;
+        width: 100%;
+    }
+    .offerimage img {
+        position: unset;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+    .enquirenowcontainer {
+        width: 85%;
+    }
+    .enqbtnrow {
+        flex-direction: column;
+    }
+    .enqbtnrow .btnenq {
+        margin: 0px auto;
+    }
+    .footer {
+        margin-bottom: 53px;
+    }
+    .footer2 {
+        padding: 15px;
+        gap: 20px;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px) {}
+
+@media only screen and (max-width:600px) {}
+
+@media only screen and (max-width:414px) and (min-width:412px) {
+    .aspNewWraper h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width:375px) {}
+
+@media only screen and (max-width:360px) {}
+
+@media only screen and (max-width:320px) {
+    .form_strip {
+        padding: 5px 5px;
+    }
+    .aspNewWraper h2 {
+        font-size: 1.3rem;
+    }
+    /* .aspNewWraper .card-header .btn {
+        font-size: 0.8rem !important;
+    } */
+}
+
+/* Floating Visit Now Box css button and form On right */
+
+.pinkBg {
+    background: #cf9f63;
+    cursor: pointer;
+}
+
+.close_frm2 {
+    display: none;
+}
+
+.slide_form_main1 {
+    width: 340px;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 99999;
+    transition: all 1s;
+}
+
+.slide_form_main1_out {
+    width: 340px;
+    position: fixed;
+    top: 40%;
+    right: -300px;
+    z-index: 9999;
+    transition: all 1s;
+}
+
+.slide_form_btn1 {
+    width: 40px;
+    float: left;
+    border: 1px solid #cf9f63;
+    border-right: 0px;
+    /* background-color: unset; */
+    border-top-left-radius: 5px;
+    /* margin: 0; */
+    border-bottom-left-radius: 5px;
+}
+
+.slide_form_main1 .slide_form_btn1 .crox_frm1 {
+    transform: rotate(-180deg);
+    display: none;
+    padding: 17px 9px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    writing-mode: vertical-rl;
+    border: 0px solid #000;
+}
+
+.slide_form_main1_out .slide_form_btn1 .crox_frm1 {
+    display: block;
+    transition: all 0.8s;
+}
+
+.slide_form_main1 .slide_form_btn1 .enq_txt1 {
+    padding: 14px;
+    width: 100%;
+    display: block;
+    transition: all 0.8s;
+    font-size: 22px;
+}
+
+.slide_form_main1_out .slide_form_btn1 .enq_txt1 {
+    display: none;
+    transition: all 0.8s;
+}
+
+.slide_form_btn1 a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.slide_form1 {
+    width: 300px;
+    float: left;
+    box-shadow: 0 0 9px 0px #00000059;
+    padding: 25px;
+    border: 0px solid #000;
+}
+
+.slide_form1 h2 {
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+    color: #000 !important;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'MontserratRegular';
+}
+
+.slide_form1 h3 {
+    font-size: 18px;
+    padding: 0px 0px 10px;
+}
+
+.btn1 {
+    background-image: linear-gradient( to top, #343334 0%, #5f5646 51%, #343334 100%);
+    border: 1px solid #dfdfdf;
+    padding: 7px 20px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.embeddedServiceHelpButton .helpButton {
+    position: fixed !important;
+    bottom: 12px !important;
+    right: 12px !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.form_field select,
+input {
+    margin: 0 auto;
+    font-size: 13px;
+    color: #000;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.slide_form1 .form_field {
+    width: 100%;
+    margin: 10px 10px 0px 0px;
+}
+
+.slide_form1 button {
+    padding: 11px 5px;
+    margin-top: 10px;
+    width: 100%;
+    background: #000;
+    font-size: 20px;
+    border: 0px solid #fff;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slide_form_main1 {
+        display: none;
+    }
+    .slide_form_main1 {
+        width: 300px;
+        position: fixed;
+        top: 20%;
+        right: 0px;
+        z-index: 99999;
+        transition: all 1s;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -20%);
+    }
+    .close_frm2 {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        display: block;
+    }
+}
+
+/*Floating Visit Now Box css Ends Here*/
